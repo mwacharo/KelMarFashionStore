@@ -13,7 +13,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Minics</title>
+  <title>KelMar</title>
 
 
   <!-- bootstrap core css -->
@@ -102,7 +102,7 @@
           <nav class="navbar navbar-expand-lg custom_nav-container ">
             <a class="navbar-brand" href="index.html">
               <span>
-                Minics
+                KelMar Fashion Store
               </span>
             </a>
 
@@ -113,19 +113,19 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ">
                 <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="index">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="about.html"> About</a>
+                  <a class="nav-link" href="about"> About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="product.html">Products</a>
+                  <a class="nav-link" href="product">Products</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="why.html">Why Us</a>
+                  <a class="nav-link" href="why">Why Us</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="testimonial.html">Testimonial</a>
+                  <a class="nav-link" href="testimonial">Testimonial</a>
                 </li>
               </ul>
             </div>
@@ -240,7 +240,7 @@
         <div class="col-sm-6 col-lg-4">
           <div class="box">
             <div class="img-box">
-              <img src="images/p1.png" alt="">
+              <img src="images/p1.jpeg" alt="">
               <a href="" class="add_cart_btn">
                 <span>
                   Add To Cart
@@ -253,7 +253,40 @@
               </h5>
               <div class="product_info">
                 <h5>
-                  <span>$</span> 300
+                  <span>Ksh</span> 850
+                </h5>
+                <div class="star_container">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        
+        <div class="col-sm-6 col-lg-4">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/p2.jpeg" alt="">
+              <a href="" class="add_cart_btn">
+                <span>
+                  Add To Cart
+                </span>
+              </a>
+            </div>
+            <div class="detail-box">color: #fff;
+              <h5>
+                Product Name
+              </h5>
+              <div class="product_info">
+                <h5>
+                  <span>Ksh</span> 850
                 </h5>
                 <div class="star_container">
                   <i class="fa fa-star" aria-hidden="true"></i>
@@ -269,7 +302,7 @@
         <div class="col-sm-6 col-lg-4">
           <div class="box">
             <div class="img-box">
-              <img src="images/p2.png" alt="">
+              <img src="images/p3.jpeg" alt="">
               <a href="" class="add_cart_btn">
                 <span>
                   Add To Cart
@@ -282,7 +315,7 @@
               </h5>
               <div class="product_info">
                 <h5>
-                  <span>$</span> 300
+                  <span>Ksh</span> 850
                 </h5>
                 <div class="star_container">
                   <i class="fa fa-star" aria-hidden="true"></i>
@@ -298,7 +331,7 @@
         <div class="col-sm-6 col-lg-4">
           <div class="box">
             <div class="img-box">
-              <img src="images/p3.png" alt="">
+              <img src="images/p4.jpeg" alt="">
               <a href="" class="add_cart_btn">
                 <span>
                   Add To Cart
@@ -311,7 +344,7 @@
               </h5>
               <div class="product_info">
                 <h5>
-                  <span>$</span> 300
+                  <span>Ksh</span> 850
                 </h5>
                 <div class="star_container">
                   <i class="fa fa-star" aria-hidden="true"></i>
@@ -327,7 +360,7 @@
         <div class="col-sm-6 col-lg-4">
           <div class="box">
             <div class="img-box">
-              <img src="images/p4.png" alt="">
+              <img src="images/p5.jpeg" alt="">
               <a href="" class="add_cart_btn">
                 <span>
                   Add To Cart
@@ -340,7 +373,7 @@
               </h5>
               <div class="product_info">
                 <h5>
-                  <span>$</span> 300
+                  <span>Ksh</span> 850
                 </h5>
                 <div class="star_container">
                   <i class="fa fa-star" aria-hidden="true"></i>
@@ -356,7 +389,7 @@
         <div class="col-sm-6 col-lg-4">
           <div class="box">
             <div class="img-box">
-              <img src="images/p5.png" alt="">
+              <img src="images/p6.jpeg" alt="">
               <a href="" class="add_cart_btn">
                 <span>
                   Add To Cart
@@ -369,7 +402,7 @@
               </h5>
               <div class="product_info">
                 <h5>
-                  <span>$</span> 300
+                  <span>Ksh</span> 850
                 </h5>
                 <div class="star_container">
                   <i class="fa fa-star" aria-hidden="true"></i>
@@ -385,7 +418,7 @@
         <div class="col-sm-6 col-lg-4">
           <div class="box">
             <div class="img-box">
-              <img src="images/p6.png" alt="">
+              <img src="images/p7.jpeg" alt="">
               <a href="" class="add_cart_btn">
                 <span>
                   Add To Cart
@@ -398,7 +431,7 @@
               </h5>
               <div class="product_info">
                 <h5>
-                  <span>$</span> 300
+                  <span>Ksh</span> 850
                 </h5>
                 <div class="star_container">
                   <i class="fa fa-star" aria-hidden="true"></i>
@@ -414,7 +447,7 @@
         <div class="col-sm-6 col-lg-4">
           <div class="box">
             <div class="img-box">
-              <img src="images/p7.png" alt="">
+              <img src="images/p8.jpeg" alt="">
               <a href="" class="add_cart_btn">
                 <span>
                   Add To Cart
@@ -427,7 +460,7 @@
               </h5>
               <div class="product_info">
                 <h5>
-                  <span>$</span> 300
+                  <span>Ksh</span> 850
                 </h5>
                 <div class="star_container">
                   <i class="fa fa-star" aria-hidden="true"></i>
@@ -443,7 +476,7 @@
         <div class="col-sm-6 col-lg-4">
           <div class="box">
             <div class="img-box">
-              <img src="images/p8.png" alt="">
+              <img src="images/p9.jpeg" alt="">
               <a href="" class="add_cart_btn">
                 <span>
                   Add To Cart
@@ -456,36 +489,7 @@
               </h5>
               <div class="product_info">
                 <h5>
-                  <span>$</span> 300
-                </h5>
-                <div class="star_container">
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-lg-4">
-          <div class="box">
-            <div class="img-box">
-              <img src="images/p9.png" alt="">
-              <a href="" class="add_cart_btn">
-                <span>
-                  Add To Cart
-                </span>
-              </a>
-            </div>
-            <div class="detail-box">
-              <h5>
-                Product Name
-              </h5>
-              <div class="product_info">
-                <h5>
-                  <span>$</span> 300
+                  <span>Ksh</span> 850
                 </h5>
                 <div class="star_container">
                   <i class="fa fa-star" aria-hidden="true"></i>
@@ -755,7 +759,7 @@
             </p>
             <p>
               <i class="fa fa-envelope" aria-hidden="true"></i>
-              demo@gmail.com
+              KelMar@gmail.com
             </p>
           </div>
         </div>
@@ -842,7 +846,7 @@
     <div class="container">
       <p>
         &copy; <span id="displayYear"></span> All Rights Reserved By
-        <a href="https://html.design/">Free Html Templates</a>
+        <a href="https://html.design/">KelMar FAshion store </a>
       </p>
     </div>
   </footer>

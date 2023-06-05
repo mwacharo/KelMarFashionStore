@@ -2,6 +2,10 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+//use Spatie\Permission\Contracts\Role;
+// use Spatie\Permission\Models\Role;
+use Spatie\Permission\Models\Role;
+use Spatie\Permission\Models\Permission;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,6 +21,19 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/create-role', function () {
+    //$role = Role::create(['name' => 'superadmin']);
+
+    $user= Auth()->user();
+    $user->assignRole('superadmin');
+
+   //dd($user);
+    //$permission = Permission::create(['name' => 'post products']);
+    return $user;
+});
+   
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');

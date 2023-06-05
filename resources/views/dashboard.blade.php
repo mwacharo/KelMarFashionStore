@@ -40,13 +40,15 @@
   top: 0;
   height: 100%;
   z-index: 100;
-  background: var(--main-color);
+  background: #434F78;
+  /* var(--main-color); */
   transition: width 300ms;
 }
 .sidebar-brand {
   height: 90px;
   padding: 1rem 0rem 1rem 2rem;
   color: #fff;
+  
 }
 .sidebar-brand span {
   display: inline-block;
@@ -104,7 +106,7 @@
   margin-left: 345px;
 }
 header {
-  background: #fff;
+  background: #434f78;
   display: flex;
   justify-content: space-between;
   padding: 1rem 1.5rem;
@@ -421,7 +423,9 @@ td .status {
             <li>
               <a href="#" class="active">
                 <span class="fas fa-tachometer-alt"></span>
-                <span>Dashboard</span>
+                <span>
+
+Dashboard</span>
               </a>
             </li>
             <li>
@@ -558,6 +562,7 @@ td .status {
               <span class="fas fa-shopping-cart"></span>
             </div>
           </div>
+          
           <div class="card-single">
             <div>
               <h1>$50K</h1>
